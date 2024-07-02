@@ -22,7 +22,7 @@ const SendEmail = ({ onSubmit, hideForm }) => {
     });
 
     if (response.ok) {
-      console.log("Form successfully submitted");
+      alert("Form successfully submitted");
       hideForm();
       setIsVisible(false); 
     } else {

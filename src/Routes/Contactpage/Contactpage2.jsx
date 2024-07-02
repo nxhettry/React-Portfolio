@@ -7,7 +7,6 @@ const Contactpage2 = () => {
   const [clicked, setClicked] = useState(false);
   const handleClick = () => {
     setClicked(current => !current);
-    console.log("Current is in :", clicked);
   };
 
   return (
