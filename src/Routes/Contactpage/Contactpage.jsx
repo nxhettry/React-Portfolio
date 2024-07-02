@@ -1,5 +1,5 @@
 import Contactpage1 from "./Contactpage1";
-import Contactpage2 from "";
+import Contactpage2 from "./Contactpage2";
 
 function Contactpage () {
     return (
