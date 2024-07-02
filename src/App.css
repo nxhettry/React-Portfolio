@@ -1,0 +1,49 @@
+.headFont {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.randomBox {
+  transition: all 0.3s ease;
+}
+
+.randomBox:hover {
+  background-color: white;
+  transform: scale(1.05);
+}
+.logo-hover {
+  transition: transform 1s ease, background-color 1s ease; 
+  display: inline-block; 
+}
+
+.logo-hover:hover {
+  transform: rotate(360deg); 
+  background-color: purple;
+}
+.project-container {
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-container:hover {
+  transform: scale(1.05);
+}
+.quote:hover {
+  transition: all 0.5s ease, background-color 1s ease; 
+  transform: scale(1.05);
+  display: inline-block; 
+  background-color: white;
+  color: black;
+}
+#skills:hover {
+  transition: all 0.5s ease, background-color 1s ease; 
+  transform: scale(1.05);
+  display: inline-block; 
+  background-color: white;
+  color: black;
+}
