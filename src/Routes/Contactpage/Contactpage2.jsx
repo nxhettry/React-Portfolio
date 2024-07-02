@@ -1,9 +1,7 @@
-
-
 const Contactpage2 = () => {
     return (
         <div className="flex gap-16">
-            <p>I'm interested in freelance opprtunities. However, if you have anything else, donot hesitate to contact me.</p>
+            <p>I'm interested in freelance opportunities. However, if you have anything else, do not hesitate to contact me.</p>
             <div className="flex border border-white">
 
             </div>
