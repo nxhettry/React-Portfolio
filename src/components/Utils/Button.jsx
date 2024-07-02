@@ -6,17 +6,18 @@ function Button(props) {
   const [hover, setHover] = useState(false);
   const navigate = useNavigate();
 
-  const handleClick = () => {
-    navigate('/about');
+  const handleClick = (link) => {
+    navigate(link);
   };
 
   return (
     <button
-      onClick={handleClick}
+      onClick={() => {handleClick(props.link)}}
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
       className="border border-purpleText text-white font-mainText"
       style={{
+        height: props.h,
         width: props.w,
         padding: props.p,
         backgroundColor: hover ? "#4B5563" : "initial",

@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       backgroundColor: theme => ({
         'background': '#282C33',
+        'hover': '#4B5563',
       }),
       textColor: theme => ({
         'greyText': '#ABB2BF',

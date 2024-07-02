@@ -18,12 +18,12 @@
   transform: scale(1.05);
 }
 .logo-hover {
-  transition: transform 1s ease, background-color 1s ease; 
-  display: inline-block; 
+  transition: transform 1s ease, background-color 1s ease;
+  display: inline-block;
 }
 
 .logo-hover:hover {
-  transform: rotate(360deg); 
+  transform: rotate(360deg);
   background-color: purple;
 }
 .project-container {
@@ -34,16 +34,23 @@
   transform: scale(1.05);
 }
 .quote:hover {
-  transition: all 0.5s ease, background-color 1s ease; 
+  transition: all 0.5s ease, background-color 1s ease;
   transform: scale(1.05);
-  display: inline-block; 
+  display: inline-block;
   background-color: white;
   color: black;
 }
 #skills:hover {
-  transition: all 0.5s ease, background-color 1s ease; 
+  transition: all 0.5s ease, background-color 1s ease;
   transform: scale(1.05);
-  display: inline-block; 
+  display: inline-block;
   background-color: white;
   color: black;
+}
+.aBtn {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.aBtn:hover {
+  animation: pulse 0.6s;
 }

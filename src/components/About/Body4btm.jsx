@@ -20,7 +20,7 @@ function Body4btm() {
           </p>
         </div>
 
-        <Button text="Read more -&gt;" p="4px 8px" w="10rem" />
+        <Button text="Read more -&gt;" p="4px 8px" w="10rem" link="/about" />
       </div>
       <div className="w-[65%] sm:w-[80] sm:h-[80] md:w-[40%] md:h-[25vw] relative">
         <img

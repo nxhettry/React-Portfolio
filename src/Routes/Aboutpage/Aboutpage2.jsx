@@ -1,7 +1,7 @@
 const Aboutpage2 = () => {
   return (
-    <div className="flex my-8 gap-4 w-full mx-auto">
-      <div className="flex flex-col justify-center gap-12 text-greyText w-[43%]">
+    <div className="flex-col-reverse gap-8 md:gap-0 items-center sm:items-start md:flex-row flex my-8 w-full mx-auto">
+      <div className="flex flex-col justify-center gap-12 text-greyText w-full md:w-[43%]">
         <p>Hello, i'm Nishan!</p>
         <p>
           I'm a full-stack developer with a passion for creating beautiful and
@@ -15,11 +15,11 @@ const Aboutpage2 = () => {
           in working with me, please don't hesitate to get in touch!
         </p>
       </div>
-      <div className="flex w-[55%]">
+      <div className="flex justify-start md:justify-end w-full md:w-[55%]">
         <img
           src="home.jpeg"
           alt="Nishan"
-          className="w-[23vw] h-[25vw] object-cover"
+          className="h-[55vw] md:w-[23vw] md:h-[25vw] object-cover"
         />
       </div>
     </div>
