@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import { Link } from 'react-scroll';
+import { Link as RouterLink } from 'react-router-dom';
 
 const Li = ({ text, to }) => (
   <Link to={to} smooth={true} duration={500} className="py-2 px-4 cursor-pointer hover:border-b hover:border-white">

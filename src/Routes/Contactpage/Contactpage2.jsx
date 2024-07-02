@@ -10,7 +10,7 @@ const Contactpage2 = () => {
   };
 
   return (
-    <div className="flex flex-col gap-20 w-full ">
+    <div className="flex flex-col gap-8 sm:gap-20 w-full">
       {clicked && <SendEmail hideForm={handleClick} />}
       <p className="w-3/5">
         I'm interested in freelance opportunities. However, if you have anything
@@ -18,7 +18,7 @@ const Contactpage2 = () => {
       </p>
       <div className="flex text-greyText gap-20">
         <div className="w-60 flex flex-col gap-4">
-          <div className="flex gap-28 w-full">
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-12 md:gap-28 w-full">
             <Contactinfo />
             <p className="text-3xl text-greyText">OR</p>
             <button

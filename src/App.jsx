@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./App.css";
 import Header from "./components/Navbar/Header";
 import Homepage from "./Routes/Homepage";
@@ -9,6 +9,9 @@ import Contactpage from "./Routes/Contactpage/Contactpage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
+  useEffect(() => {
+    console.clear();
+  });
 
   return (
     <div className="relative bg-background h-full text-white font-mainText w-screen overflow-x-hidden">
