@@ -17,7 +17,7 @@ const Aboutpage2 = () => {
       </div>
       <div className="flex justify-start md:justify-end w-full md:w-[55%]">
         <img
-          src="home.jpeg"
+          src="home.svg"
           alt="Nishan"
           className="h-[55vw] md:w-[23vw] md:h-[25vw] object-cover"
         />
