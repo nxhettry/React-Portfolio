@@ -19,7 +19,7 @@ const Aboutpage2 = () => {
         <img
           src="home.svg"
           alt="Nishan"
-          className="h-[55vw] md:w-[23vw] md:h-[25vw] object-cover"
+          className="h-[50vw] md:w-[23vw] md:h-[21vw] object-cover"
         />
       </div>
     </div>
