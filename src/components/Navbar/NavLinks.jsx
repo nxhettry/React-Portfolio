@@ -20,10 +20,10 @@ function Navlinks() {
   return (
     <div>
       <ul className="hidden md:flex gap-4 text-md headFont">
-        <Li text="home" to="body1" />
-        <Li text="projects" to="body2" />
-        <Li text="skills" to="body3" />
-        <Li text="about" to="body4" />
+        <Li text="home" to="/" />
+        <Li text="projects" to="/projects" />
+        <Li text="skills" to="/skills" />
+        <Li text="about" to="/about" />
       </ul>
       <div className="md:hidden">
         <div onClick={toggleMenu} className="cursor-pointer">
